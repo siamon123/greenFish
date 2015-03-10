@@ -1,0 +1,94 @@
+/* All Screen ----------------------------- */
+
+@media only screen and (max-width:768px) {
+ 
+ body{
+ 	font: 15px/1.6 "Helvetica Neue", Helvetica, sans-serif; 
+    overflow-x: hidden;
+ 	-webkit-overflow-scrolling: touch;
+ }#page{
+ 	padding:0;
+ }#content-holder{
+ 	padding:2% 15px;
+ }.content{
+ 	padding-top: 50px;
+ 	width:100%
+ }.headerWrap{
+  	padding: 1% 0 0 5px;
+  }.navbar-toggle{
+  	display: block;
+  }.header-right {
+  	width: 100%;
+  }ul.navbar{
+  	display:none;
+  }ul.navbar.navbar-items{
+ 	float:left;
+ 	width: 100%;
+ 	border-top:1px solid #EDEDED;
+ }ul.navbar.navbar-items li{
+ 	display:block;
+ }ul.navbar.navbar-items li a{
+ 	line-height: 40px;
+ }#sub-header{
+ 	display: none;
+ }.subInner ul li {
+   display: block;
+ }.subInner ul li a{
+ 	padding: 5px;
+ }#sidebar{
+ 	clear: both;
+ 	float: left;
+ 	width: 100%;
+ 	margin-left: 0;
+ 	margin-top: 0;
+ }.sidebar-popular img{
+ 	display: inline-block;
+ 	margin-right: 10px;
+ }.sidebar-popular p {
+ 	font-size:15px;
+ }.post-det h3 {
+ 	margin-bottom:5%;
+ 	padding: 3%;
+ }.post-det h3 a strong{
+ 	font-size: 20px;
+ 	line-height: 1;
+ }.post-det h3 a:hover{
+ 	opacity: .8;
+ }.post-inner-title{
+ 	font-size: 18px;
+ }.post-entry-content p{
+ 	font-size:13px;
+ 	margin-bottom: 3.5%;
+ }.post-entry-content p a {
+ 	margin-bottom: 5px;
+ }.post-footer time {
+ 	font-size:12px;
+ }
+ #contact-form {
+ 	margin-top: 25px;
+ }#contact-form input, #contact-form textarea {
+   padding: 8px;
+ } #contact-form textarea{
+ 	min-height: 125px;
+ }#contact-btn{
+ 	margin-top:8px;
+ }
+footer .intac ul{
+	float:none;
+}.social-icons{
+	position: absolute;
+	top:0;
+	right: 0;
+	margin: 6px 5px 0 0;
+}
+
+}
+
+@media only screen and (max-width:384px) {
+	
+	.social-icons{
+		position: relative;
+	}	
+
+
+}
