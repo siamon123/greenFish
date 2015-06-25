@@ -1,9 +1,9 @@
 /* All Screen ----------------------------- */
 
 @media only screen and (max-width:768px) {
- 
+
  body{
- 	font: 15px/1.6 "Helvetica Neue", Helvetica, sans-serif; 
+ 	font: 15px/1.6 "Helvetica Neue", Helvetica, sans-serif;
     overflow-x: hidden;
  	-webkit-overflow-scrolling: touch;
  }#page{
@@ -76,19 +76,9 @@
 footer .intac ul{
 	float:none;
 }.social-icons{
-	position: absolute;
-	top:0;
-	right: 0;
-	margin: 6px 5px 0 0;
+  position: relative;
+  float: none;
+  margin-top: 15px;
 }
-
-}
-
-@media only screen and (max-width:384px) {
-	
-	.social-icons{
-		position: relative;
-	}	
-
 
 }

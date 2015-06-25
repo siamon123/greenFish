@@ -133,7 +133,7 @@ a                                       {
                                         }
 .post-entry-content img                 {
                                          display:block;margin:0 auto 1.5em;
-                                        }                                        
+                                        }
 .post-entry-content p a                 {
                                          background-color: #2ECC71; color: white; padding: 5px 15px; margin-top: 10px; display: inline-block; border-radius: 3px; transition: opacity 1s;
                                         }
@@ -151,7 +151,7 @@ a                                       {
                                         }
 .post-footer div span.left                   {
                                          float: left
-                                        }                                        
+                                        }
 .pagination                             {
                                          width: 100%; position: relative; text-align: center; margin-bottom: 20px;
                                         }
@@ -236,7 +236,7 @@ a                                       {
                                          width: 100%; padding: 15px; background-color: #EBECED; border: 1px solid #DDD; box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07); -webkit-transition: .05s border-color ease-in-out;
                                         }
 #contact-form input                     {
-                                        
+
                                         }
 #contact-form textarea                  {
                                          resize: none; min-height: 300px;
@@ -248,17 +248,17 @@ a                                       {
                                          background-color: #0074A2;
                                         }
 .msg                                    {
-                                         padding: 20px 20px 20px 40px;margin-bottom: 15px;border-style: solid;border-width: 1px; 
-	
-                                        }                                        
+                                         padding: 20px 20px 20px 40px;margin-bottom: 15px;border-style: solid;border-width: 1px;
+
+                                        }
 #success                                {
                                          background-color:#e8f5df;
                                          border-color: #9ef5d5;
-                                        }                                 
+                                        }
 #error                                  {
-                                          background-color: #f5dfdf; 
+                                          background-color: #f5dfdf;
                                           border-color: #ce9e9e;
-                                         }                                       
+                                         }
 /* ============ [Footer Section] =============
    ================================================== */
 footer                                  {
@@ -267,23 +267,26 @@ footer                                  {
 footer .intac                           {
                                          padding: 1% 15px
                                         }
-footer ul                               {
-                                         position: relative; float: left; font-size: 12px;
+footer .footer-left                           {
+                                         display: inline-block;
                                         }
-footer ul li                            {
+footer .footer-left ul                               {
+                                         position: relative; display: block; font-size: 12px;
+                                        }
+footer .footer-left ul li                            {
                                          display: inline; margin-right: 10px;
                                         }
-footer ul li a                          {
+footer .footer-left ul li a                          {
                                          color: #B6C0C9; word-wrap: break-word;
                                         }
-footer ul li a:hover                    {
+footer .footer-left  ul li a:hover                    {
                                          color: #111; border-bottom: 1px dashed;
                                         }
-#copy-right                             {
+.footer-left  #copy-right                             {
                                          margin-top: 5px; color: #B6C0C9; font-size: 12px; float: left;
                                         }
 .social-icons                           {
-                                         position: absolute; right: 8px; top: 14px;
+                                         position: relative; display: block; float: right;
                                         }
 .social-icons a                         {
                                          border: 1px solid #e5e5e5; height: 40px; display: inline-block; padding: 10px 15px; text-align: center;
@@ -306,8 +309,3 @@ a.social-googleplus:hover               {
 .social-icons a span                    {
                                          vertical-align: middle; margin-left: 5px; font-size: 12px; display: none;
                                         }
-
-
-
-
-
